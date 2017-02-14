@@ -1,10 +1,10 @@
 ActiveRecord::Base.establish_connection(
-:adaptor => 'postgresql',
-:database => 'pokemon_db'
+:adapter => 'postgresql',
+:database => 'pokemon'
 )
-
-if defined? Sinatra
-  after do
-    ActiveRecord::Base.connection.close
-  end
-end 
+#
+# if defined? Sinatra
+#   after do
+#     ActiveRecord::Base.connection.close
+#   end
+# end
