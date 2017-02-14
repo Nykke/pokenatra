@@ -48,6 +48,7 @@ a:hover {
   border-left-color: rgba(255, 0, 0, .5);
   border-right-color: rgba(225, 225, 225, .5);
   border-bottom-color: rgba(225, 225, 225, .5);
+  
 }
 
 @keyframes pulse {
